@@ -1,0 +1,50 @@
+.Container {
+    padding:30px 20px;
+    height: auto;
+    background-color: #fff;
+    width :auto;
+}
+.image {
+    width: auto;
+    height: 49.19px;
+}
+.Menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    flex-direction: row;
+    min-width: max-content;
+    padding: 0px 5px;
+    width: auto;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 500;
+}
+.Menu :hover {
+    color: #b1010a;
+    cursor: pointer;
+}
+.Menu :active {
+    color: #81696b;
+    cursor: pointer;
+}
+.slider{
+    
+ height: 700px;
+ width: 30%;
+}
+.Slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ButtonNext{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.ButtonPrev{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
