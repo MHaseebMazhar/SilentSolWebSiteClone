@@ -1,12 +1,9 @@
 import React from "react";
 import "./Header.css";
 import "./SilentSolhd-1.png";
-import { useNavigate } from "react-router-dom"; // Import the useNavigate hook from react-router-dom
+import {NavLink} from 'react-router-dom'; // Import Link from react-router-dom
 const Header = () => {
-  const navigate = useNavigate(); // Initialize the useNavigate hook
-  const handleNext = () => {
-    navigate ("/Next"); // Replace with your desired navigation logic
-  };
+
   return (
     <div className="Container">
       <div className="Menu">
@@ -17,29 +14,14 @@ const Header = () => {
             alt="Logo"
           />
         </a>
-        <p>Home</p>
-        <p>Our Story</p>
-        <p>Services</p>
-        <p>Portfolio</p>
-        <p>Career</p>
-        <p>Contact us</p>
-        <p>Blog</p>
-      </div>
-      <div className="ButtonPrev">
-        <button className="button">Previous</button>
-      </div>
-      <div className="Slider">
-      <img
-           className="slider"
-            src={require("./DSC_0092.JPG")}
-            alt="Logo"
-          /> 
-      </div>
-      <div className="ButtonNext">
-        <button type="button" onClick={handleNext} className="button">Next</button>
+        <NavLink to="/Home" className={({ isActive }) => isActive ? 'active' : ''}>Home</NavLink>
+        <NavLink to="/OurStory" className={({ isActive }) => isActive ? 'active' : ''}>Our Story</NavLink>
+        <NavLink to="/Services" className={({ isActive }) => isActive ? 'active' : ''}>Services</NavLink>
+        <NavLink to="/Portfolio" className={({ isActive }) => isActive ? 'active' : ''}>Portfolio</NavLink>
+        <NavLink to="/Career" className={({ isActive }) => isActive ? 'active' : ''}>Career</NavLink>
+        <NavLink to="/ContactUs" className={({ isActive }) => isActive ? 'active' : ''}>Contact Us</NavLink>
       </div>
     </div>
   );
 };
-
 export default Header;

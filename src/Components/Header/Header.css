@@ -1,50 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .Container {
-    padding:30px 20px;
-    height: auto;
-    background-color: #fff;
-    width :auto;
+  padding: 30px 20px;
+  height: auto;
+  background-color: #fff;
+  width: auto;
 }
 .image {
-    width: auto;
-    height: 49.19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 49.19px;
 }
 .Menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: top;
-    flex-direction: row;
-    min-width: max-content;
-    padding: 0px 5px;
-    width: auto;
-    height: 100%;
-    font-size: 25px;
-    font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 210px 0px 210px;
+  font-size: 20px;
+  font-weight: 600;
+
+  overflow: hidden;
 }
 .Menu :hover {
-    color: #b1010a;
-    cursor: pointer;
+  color: #b1010a;
+  cursor: pointer;
 }
-.Menu :active {
-    color: #81696b;
-    cursor: pointer;
+.Menu :any-link {
+  text-decoration: none;
 }
-.slider{
-    
- height: 700px;
- width: 30%;
+.SliderContainer {
+  width: 100%;
+  height: 80vh;
+  position: relative;
 }
-.Slider{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.slide-wrapper {
+  position: relative;
+  width: 100%;
+  height: 80vh;
 }
-.ButtonNext{
-    display: flex;
-    justify-content: end;
-    align-items: end;
+
+.slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.ButtonPrev{
-    display: flex;
-    justify-content: start;
-    align-items: end;
+
+.slide-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(156, 98, 98);
+  text-align: center;
+  background-color: none; /* optional overlay */
+  padding: 20px 30px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.slide-text h1 {
+  font-size: 48px;
+  margin: 0 0 10px;
+}
+
+.slide-text p {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.next {
+  right: 20px;
+}
+
+.prev {
+  left: 20px;
+}
+.active {
+  color: rgb(201, 22, 22);
 }

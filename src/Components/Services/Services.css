@@ -1,0 +1,184 @@
+.services{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-right: 0px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 56.3vh;
+  border-radius: 20px 20px 20px 20px;
+}
+.header{
+  padding: 60px 0px 15px 0px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header h2{
+  font-size: 65px;
+  font-weight: 500;
+  font-style: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.3em;
+  font-family: 'Raleway', sans-serif;
+}
+.services-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.services-content h2{
+  font-size: 48px;
+  margin-top: 90px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.3em;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 20px;
+}
+.services-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  white-space-collapse:preserve-spaces;
+}
+.services-list p{
+  line-height: 2em;
+  font-size: 16px;
+  margin-bottom: 6%;
+}
+.services-cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: column;
+  margin: 0px 20% 0px 20%;
+  padding: 0px 60px 40px 0px;
+}
+.card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding:4.5% 4% 4.5% 4%;
+  height: 40vh;
+  width: 100%;
+  color: #ffffff; 
+  font-size: 30px;
+  border-radius: 6px;
+}
+.card:hover{
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+  box-shadow: #b3b3b3 0px 20px 30px 0px;
+}
+.card-header{
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  color: #ff2020;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+.card-header:hover{
+  color: #b4b4b4;
+  transition: all 0.3s ease-in-out;
+  box-shadow: #555555;
+}
+.card-body p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  color: #000000;
+  width: 100%;
+  line-height: 1.5em; 
+}
+.card-head h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 40px 0px 20px 0px;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+}
+.quote{
+  margin: 5% 20% 0px 20%;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.quote span{
+  background-color: #8D0101;
+  border-radius: 50px;
+  padding: 18px 32px 18px 32px;
+  color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgb(94, 94, 94);
+  font-style: bold;
+}
+.quote span:hover{
+  color: #ffffff;
+  background-color: #757575;
+  transition: all 0.3s ease-in-out;
+  box-shadow: #555555;
+}
+.services-footer{
+  margin: 5% 20% 0px 20%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: column;
+  height: 10vh;
+  padding: 100px 0px 20px 0px;
+}
+.footer-header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+  border: #000000 1px solid;
+  padding: 15px 80px 15px 80px;
+}
+.footer-header img{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 35px;
+  padding-bottom: 5px;
+}
+.footer-header p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+}

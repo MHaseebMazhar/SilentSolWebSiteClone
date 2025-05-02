@@ -1,0 +1,150 @@
+.our-story-container {
+  margin:0px 20px 0px 20px;
+}
+.our-story-title {
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+.our-story-image {
+  width: 427.5px;
+  height: 427.5px;
+  display: inline-block;
+  vertical-align: right;
+}
+.our-mission-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-mission-img {
+  width: 427px;
+}
+.our-vision-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-vision-img {
+  width: 427px;
+}
+.our-vision-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.our-story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-story-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.our-story-header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.our-values-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.our-values-header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.our-values-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.box {
+  display: grid;
+
+  gap: 20px; /* Space between items */
+  background-color: #000;
+  padding: 6% 14.5% 3% 14.5%;
+  margin: 0px 0px;
+  border-radius : 20px 20px 0px 0px;
+  box-sizing: border-box;
+}
+.boxes{
+  
+  gap: 25px;
+ display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  width: 100%;
+  height: 100%;
+}
+/* Ensure each box-item stretches to equal height */
+.box-item {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 10% 10% 14% 10%;
+  color: #222;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+
+  height: 100%;
+}
+
+.box-item h2 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  color: #000000;
+  text-transform: capitalize;
+  line-height: 1em;
+
+}
+
+.box-item .box-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000000;
+  flex-grow: 1;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .box {
+    grid-template-columns: 1fr;
+  }
+}
+.box-item{
+  align-items: stretch;
+}
+.our-values-img {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: right;
+}
+.box-header {
+  display: flex;
+ display:-webkit-box;
+ position: relative;
+ z-index: 0;
+}
