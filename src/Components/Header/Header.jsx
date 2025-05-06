@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.css";
-import "./SilentSolhd-1.png";
 import {NavLink} from 'react-router-dom'; // Import Link from react-router-dom
 const Header = () => {
 
@@ -10,7 +9,7 @@ const Header = () => {
         <a href="https://silentsol.com/">
           <img
             className="image"
-            src={require("./SilentSolhd-1.png")}
+            src= "SilentSolhd-1.png"
             alt="Logo"
           />
         </a>
@@ -21,6 +20,7 @@ const Header = () => {
         <NavLink to="/Career" className={({ isActive }) => isActive ? 'active' : ''}>Career</NavLink>
         <NavLink to="/ContactUs" className={({ isActive }) => isActive ? 'active' : ''}>Contact Us</NavLink>
       </div>
+
     </div>
   );
 };

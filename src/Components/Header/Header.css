@@ -4,36 +4,44 @@
   box-sizing: border-box;
 }
 .Container {
-  padding: 30px 20px;
-  height: auto;
-  background-color: #fff;
-  width: auto;
+  position: fixed; /* Make it fixed on top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; /* Ensure it's above all other content */
+  background-color:white; /* Optional background color */
+  padding: 12px 0px;
 }
+
 .image {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: auto;
-  height: 49.19px;
+  height: 5.1vh;
+  padding-right: 130px;
 }
 .Menu {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0px 210px 0px 210px;
+  align-items: end;
+  padding: 0px 19% 0px 19%;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
+  
 
   overflow: hidden;
 }
-.Menu :hover {
+.Menu:any-link :hover {
   color: #b1010a;
   cursor: pointer;
 }
 .Menu :any-link {
+  color: #000000;
   text-decoration: none;
 }
 .SliderContainer {
+  margin-top: 110px;
   width: 100%;
   height: 80vh;
   position: relative;
@@ -96,6 +104,6 @@
 .prev {
   left: 20px;
 }
-.active {
-  color: rgb(201, 22, 22);
+.active:any-link {
+  color: #b90108
 }

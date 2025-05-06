@@ -1,0 +1,291 @@
+.career {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 0 0 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.career-container-image img {
+  height: 77vh;
+}
+.career-header {
+  padding: 2.5% 13% 0px 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+}
+.career-container {
+  width: 43%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
+  margin-right: 3%;
+}
+.career-container h2 {
+  font-size: 60px;
+  font-weight: 500;
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  line-height: 1.4em;
+  text-transform: none;
+  margin: 10px 0;
+  box-sizing: border-box;
+  padding-right: 9%;
+}
+.lead-color-solid {
+  color: #7c0101;
+}
+.subtext {
+  color: #838697;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  display: block;
+  margin-right: 26%;
+  margin-bottom: 95px;
+}
+.career-container-button {
+  display: flex;
+  justify-content: start;
+  background-color: #7c0101;
+  text-decoration: none;
+  margin-left: -71%;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #c7c7c7;
+  border-radius: 10px;
+  flex: 0 0 auto;
+  min-width: 150px;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 1;
+  color: #ffffff;
+}
+.career-container-button :hover {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+}
+.career-container-button span {
+  padding: 14px 45px 14px 35px;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5em;
+  text-decoration: none;
+}
+.career-container-join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  height: 40vh;
+}
+.career-container-join h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  line-height: 1.4em;
+  text-transform: none;
+  margin-bottom: 3%;
+  box-sizing: border-box;
+}
+.career-container-join-submission {
+  padding: 2.5% 0% 0px 0%;
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  display: flex;
+  margin-bottom: 10%;
+  width: 100%;
+  height: 45vh;
+  margin-top: 3%;
+  flex-direction: row;
+}
+.career-container-join-submission1 {
+  display: flex;
+  width: 50%;
+  height: 50vh;
+  flex-direction: column;
+  margin-left: 19%;
+  padding-right: 55px;
+}
+.career-container-join-submission2 {
+  display: flex;
+  width: 50%;
+  height: 50vh;
+  flex-direction: row;
+  margin-right: 17%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 3 columns */
+}
+.career-container-join-submission1 h2 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.5em;
+  color: #04042c;
+  margin-bottom: 3%;
+  margin-right: 15%;
+}
+.career-container-join-button {
+  display: flex;
+  color: #000;
+  text-decoration: none;
+  line-height: 2em;
+  min-width: 150px;
+  text-align: left;
+  vertical-align: middle;
+  position: relative;
+  flex-direction: column;
+  margin-right: 13%;
+}
+.career-container-join-button1 {
+  margin-top: 15px;
+}
+.career-container-button1 {
+  display: flex;
+  background-color: #7c0101;
+  text-decoration: none;
+  width: 28.07%;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #c7c7c7;
+  border-radius: 10px;
+  flex: 0 0 auto;
+  min-width: 150px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  margin-top: 50px;
+}
+.career-container-button1 :hover {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+}
+.career-container-button1 span {
+  padding: 14px 35px 14px 35px;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5em;
+  text-decoration: none;
+}
+.career-container-join-box1 {
+  display: grid;
+  color: #000000;
+  box-sizing: border-box;
+  padding: 30px 30px 30px 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.step-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.step-title h2 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #04042c;
+  margin: 0;
+}
+.step-number {
+  font-family: "Poppins", Sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1em;
+  color: rgba(4, 4, 44, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.career-container-join-box1 p {
+  display: grid;
+  padding-right: 37px;
+  width: 100%;
+  color: #45505f;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7em;
+}
+.career-container-join-box2 {
+  display: grid;
+  /* Space between items */
+  color: #000000;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 20px;
+  width: 100%;
+  margin-top: 70px;
+}
+.career-container-join-box2 p {
+  display: grid;
+  padding-right: 59px;
+  width: 100%;
+  color: #45505f;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7em;
+}
+.career-container-join-box3 {
+  display: grid;
+  /* Space between items */
+  color: #000000;
+  box-sizing: border-box;
+  padding: 30px 30px 30px 30px;
+  width: 100%;
+}
+.career-container-join-box3 p {
+  display: grid;
+  padding-right: 37px;
+  width: 100%;
+  color: #7d8091;
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+.career-container-join-box4 {
+  display: grid;
+  /* Space between items */
+  color: #000000;
+  box-sizing: border-box;
+  padding: 30px 30px 30px 30px;
+  width: 100%;
+}
+.career-container-join-box4 p {
+  display: grid;
+  padding-right: 37px;
+  width: 100%;
+  color: #45505f;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7em;
+}

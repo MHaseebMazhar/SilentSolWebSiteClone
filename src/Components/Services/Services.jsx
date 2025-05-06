@@ -160,17 +160,21 @@ const Services = () => {
       <div className="services-footer">
         <div className="footer-header">
           <img src="location.png" alt="location" />
-          <p>1st Floor, Paramount Arcade, Office# F-4, G-15 Markaz Islamabad, 44000</p>
-          </div>
-          <div className="footer-header">
+          <p>
+            1st Floor, Paramount Arcade, Office# F-4, G-15 Markaz Islamabad,
+            44000
+          </p>
+        </div>
+        <div className="footer-header">
           <img src="phone.png" alt="phone" />
           <p>+92 342 0945111</p>
-          </div>
-          <div className="footer-header">
+        </div>
+        <div className="footer-header1">
           <img src="email.png" alt="email" />
           <p>info@silentsol.com</p>
-          </div>
-       </div> 
+        </div>
+      </div>
+      <div className="footer"></div>
     </div>
   );
 };

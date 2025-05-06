@@ -1,0 +1,23 @@
+.contactus {
+  padding-top: 5.8%;
+}
+.contactus-header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #322a2b;
+  height: 22.2vh;
+  border-radius: 20px 20px 0px 0px;
+}
+.contactus-header h2 {
+  color: #ffffff;
+  font-family: "Lato", Sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.1em;
+  margin-left: 18%;
+}
+.h2-span {
+  font-weight: 600;
+}

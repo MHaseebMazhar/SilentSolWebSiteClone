@@ -2,7 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 const Portfolio = () => {
   return (
-    <div className="container">
+    <div className="container1">
       <div className="portfolio">
         <h2>
           Explore our portfolio – a testament to our expertise, innovation, and
@@ -10,148 +10,165 @@ const Portfolio = () => {
           story.
         </h2>
       </div>
-      <div className="portfolio">
+      <div className="portfolio1">
         <h2>Our few success stories.</h2>
       </div>
-      <div className="box">
-        <div className="boxes">
-          <div className="box-item">
-            <div className="box-header">
-              <img src="7.png" alt="Our Values" className="our-values-img" />
-              <h2> Silence in Code, Power in Simplicity</h2>
+      <div className="box1">
+        <div className="boxes1">
+          <div className="box-item1">
+            <div className="box-header1">
+              <img src="app1.png" alt="Music App" className="our-values-img1" />
             </div>
-            <p className="box-text">
-              Our commitment to clean, efficient code reflects our belief in the
-              power of simplicity. In the silence of our code, there lies a
-              potent language of functionality that speaks volumes.
-            </p>
+            <div className="box-text1">
+              <h2>App</h2>
+              <p>Music App</p>
+            </div>
           </div>
-          <div className="box-item">
-            <div className="box-header">
-              <img src="7.png" alt="Our Values" className="our-values-img" />
-              <h2>Innovate with Purpose</h2>
+
+          <div className="box-item1">
+            <div className="box-header1">
+              <img
+                src="app2.png"
+                alt="Our Values"
+                className="our-values-img1"
+              />
             </div>
-            <p className="box-text">
-              We believe in the power of innovation with purpose. Every line of
-              code we write is infused with a commitment to finding creative
-              solutions that make a meaningful impact on the digital landscape.
-            </p>
+            <div className="box-text1">
+              <h2>App</h2>
+              <p>Music App</p>
+            </div>
           </div>
-          <div className="box-item">
-            <div className="box-header">
-              <img src="7.png" alt="Our Values" className="our-values-img" />
-              <h2>Client Collaboration, Not Just Communication</h2>
+          <div className="box-item1">
+            <div className="box-header1">
+              <img
+                src="ff9695f6-img-3.jpg"
+                alt="Our Values"
+                className="our-values-img1"
+              />
             </div>
-            <p className="box-text">
-              We don’t just communicate; we collaborate. Our client
-              relationships are partnerships built on trust, transparency, and a
-              shared vision. Your success is our success.
-            </p>
-          </div>
-        </div>
-        <div className="boxes">
-          <div className="box-item">
-            <div className="box-header">
-              <img src="7.png" alt="Our Values" className="our-values-img" />
-              <h2>Continuous Learning and Adaptability</h2>
+            <div className="box-text1">
+              <h2>Website</h2>
+              <p>Development</p>
             </div>
-            <p className="box-text">
-              In the dynamic world of technology, we embrace continuous
-              learning. We stay at the forefront of industry advancements,
-              ensuring our team is adaptive and ready to tackle any challenge.
-            </p>
-          </div>
-          <div className="box-item">
-            <div className="box-header">
-              <img src="7.png" alt="Our Values" className="our-values-img" />
-              <h2>User-Centric Design Excellence</h2>
-            </div>
-            <p className="box-text">
-              Our user-centric approach is more than a design philosophy; it’s a
-              commitment to crafting experiences that resonate with users. We
-              prioritize intuitive interfaces and seamless interactions.
-            </p>
-          </div>
-          <div className="box-item">
-            <div className="box-header">
-              <img src="7.png" alt="Our Values" className="our-values-img" />
-              <h2>Integrity in Every Line of Code</h2>
-            </div>
-            <p className="box-text">
-              Integrity is non-negotiable. We uphold the highest standards of
-              honesty and ethical conduct in every aspect of our work, ensuring
-              the trust our clients place in us is well-founded.
-            </p>
           </div>
         </div>
-        <div className="boxes">
-          <div className="box-item">
-            <div className="box-header">
-              <img src="7.png" alt="Our Values" className="our-values-img" />
-              <h2>Collaborative Spirit, Individual Excellence</h2>
+        <div className="boxes1">
+          <div className="box-item1">
+            <div className="box-header1">
+              <img
+                src="3e5ba9c1-img-4.jpg"
+                alt="Our Values"
+                className="our-values-img1"
+              />
             </div>
-            <p className="box-text">
-              We celebrate individual excellence within the framework of a
-              collaborative spirit. Our diverse team brings unique skills to the
-              table, fostering an environment where creativity thrives.
-            </p>
+            <div className="box-text1">
+              <h2>Business</h2>
+              <p>Marketing</p>
+            </div>
           </div>
-          <div className="box-item">
-            <div className="box-header">
-              <img src="7.png" alt="Our Values" className="our-values-img" />
-              <h2>Commitment to Impactful Solutions</h2>
+          <div className="box-item1">
+            <div className="box-header1">
+              <img
+                src="Shopwave.jpg"
+                alt="Our Values"
+                className="our-values-img1"
+              />
             </div>
-            <p className="box-text">
-              Our commitment extends beyond writing code; it’s about crafting
-              solutions that have a real impact. We take pride in delivering
-              results that not only meet but exceed expectations.
-            </p>
+            <div className="box-text1">
+              <h2>Web</h2>
+              <p>E-Commerce Web</p>
+            </div>
           </div>
-          <div className="box-item">
-            <div className="box-header">
-              <img src="7.png" alt="Our Values" className="our-values-img" />
-              <h2>Agile Approach to Challenges</h2>
+          <div className="box-item1">
+            <div className="box-header1">
+              <img
+                src="wlwell-app.jpg"
+                alt="Our Values"
+                className="our-values-img1"
+              />
             </div>
-            <p className="box-text">
-              Challenges are opportunities for growth. We approach obstacles
-              with an agile mindset, viewing them as stepping stones to greater
-              achievements.
-            </p>
+            <div className="box-text1">
+              <h2>App</h2>
+              <p>Development</p>
+            </div>
           </div>
         </div>
-        <div className="boxes">
-          <div className="box-item">
-            <div className="box-header">
-              <img src="7.png" alt="Our Values" className="our-values-img" />
-              <h2>Collaborative Spirit, Individual Excellence</h2>
+        <div className="boxes1">
+          <div className="box-item1">
+            <div className="box-header1">
+              <img
+                src="somali-scaled.jpg"
+                alt="Our Values"
+                className="our-values-img1"
+              />
             </div>
-            <p className="box-text">
-              We celebrate individual excellence within the framework of a
-              collaborative spirit. Our diverse team brings unique skills to the
-              table, fostering an environment where creativity thrives.
-            </p>
+            <div className="box-text1">
+              <h2>Business</h2>
+              <p>Sales Marketing</p>
+            </div>
           </div>
-          <div className="box-item">
-            <div className="box-header">
-              <img src="7.png" alt="Our Values" className="our-values-img" />
-              <h2>Commitment to Impactful Solutions</h2>
+          <div className="box-item1">
+            <div className="box-header1">
+              <img
+                src="Lemon-app.jpg"
+                alt="Our Values"
+                className="our-values-img1"
+              />
             </div>
-            <p className="box-text">
-              Our commitment extends beyond writing code; it’s about crafting
-              solutions that have a real impact. We take pride in delivering
-              results that not only meet but exceed expectations.
-            </p>
+            <div className="box-text1">
+              <h2>App</h2>
+              <p>Development</p>
+            </div>
           </div>
-          <div className="box-item">
-            <div className="box-header">
-              <img src="7.png" alt="Our Values" className="our-values-img" />
-              <h2>Agile Approach to Challenges</h2>
+          <div className="box-item1">
+            <div className="box-header1">
+              <img
+                src="Event-scaled.jpg"
+                alt="Our Values"
+                className="our-values-img1"
+              />
             </div>
-            <p className="box-text">
-              Challenges are opportunities for growth. We approach obstacles
-              with an agile mindset, viewing them as stepping stones to greater
-              achievements.
-            </p>
+            <div className="box-text1">
+              <h2>Website</h2>
+              <p>Development</p>
+            </div>
+          </div>
+        </div>
+        <div className="boxes1">
+          <div className="box-item1">
+            <div className="box-header1">
+              <img
+                src="card2.png"
+                alt="Our Values"
+                className="our-values-img1"
+              />
+            </div>
+            <div className="box-text1">
+              <h2>App</h2>
+              <p>Remittance App</p>
+            </div>
+          </div>
+          <div className="box-item1">
+            <div className="box-header1">
+              <img src="cab.jpg" alt="Our Values" className="our-values-img1" />
+            </div>
+            <div className="box-text1">
+              <h2>App</h2>
+              <p>Cab Booking App</p>
+            </div>
+          </div>
+          <div className="box-item1">
+            <div className="box-header1">
+              <img
+                src="cemes-scaled.jpg"
+                alt="Our Values"
+                className="our-values-img1"
+              />
+            </div>
+            <div className="box-text1">
+              <h2>Web</h2>
+              <p>Development</p>
+            </div>
           </div>
         </div>
       </div>
