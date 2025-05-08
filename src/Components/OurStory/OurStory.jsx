@@ -3,6 +3,7 @@ import "./OurStory.css";
 const OurStory = () => {
   return (
     <div className="our-story-container">
+      
       <div className="our-mission-header">
         <div className="our-mission-title">
           <h1>OUR MISSION</h1>

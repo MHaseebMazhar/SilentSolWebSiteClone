@@ -8,9 +8,11 @@ import Portfolio from "./Components/Portfolio/Portfolio.jsx";
 import Career from "./Components/Career/Career.jsx";
 import OurStory from "./Components/OurStory/OurStory.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
+import ScrollToTop from "./Components/Scroll/Scroll.jsx";
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/Home" element={<Home />} />

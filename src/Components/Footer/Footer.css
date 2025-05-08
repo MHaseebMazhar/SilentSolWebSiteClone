@@ -31,25 +31,26 @@
   font-size: 14px;
   font-weight: 300;
   line-height: 26px;
-  margin-right: 14%;
+  margin-right: 13%;
   text-decoration: none;
   color: #000000;
+  margin-bottom: 30px;
 }
-
 .footer-logo {
-  margin: 25px 25px 0px 0px;
-  padding: 10px 10px 10px 10px;
-  width: 50px;
-  height: 50px;
-  fill: #0a122b;
-  text-decoration: none;
-  border: #322a2b;
-  border-radius: 50%;
-  background-color: #f2f3f9;
-}
+   width: 50px;
+   height: 50px;
+   padding-top: 13px;
+   padding-bottom: 13px;
+   fill: #0A122B;;
+   text-decoration: none;
+   border: #322a2b;
+   border-radius: 50%;
+   background-color: #f2f3f9;
+   margin-right: 20px;
+ }
 .footer-logo:hover {
   background-color: #ff0522;
-  color: #ffffff;
+  Fill: #ffffff;
   transition: all 0.3s ease-in-out;
 }
 
@@ -61,7 +62,7 @@
   flex-direction: row;
   color: #000000;
   margin-top: 50px;
-
+  text-decoration: none;
 }
 .footer-footer3 {
   display: flex;
@@ -82,10 +83,21 @@
   list-style: none;
   padding: 0 0 0 0px;
   font-family: "Poppins", Sans-serif;
+  color: #000000;
   font-size: 16px;
   font-weight: 400;
   line-height: 2.5em;
   margin-bottom: 76%;
+  text-decoration: none;
+}
+.footer-footer2-div ul li :any-link {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+.footer-footer2-div ul li :any-link:hover {
+  color: #5A43EF;
+  text-decoration: none;
 }
 .footer-footer2-div h4 {
  

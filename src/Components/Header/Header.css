@@ -11,26 +11,26 @@
   z-index: 9999; /* Ensure it's above all other content */
   background-color:white; /* Optional background color */
   padding: 12px 0px;
+  
 }
 
+.Menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: end;
+  padding: 0px 8% 0px 8%;
+  font-size: 20px;
+  font-weight: 500;
+  overflow: hidden;
+}
 .image {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: auto;
   height: 5.1vh;
-  padding-right: 130px;
-}
-.Menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
-  padding: 0px 19% 0px 19%;
-  font-size: 20px;
-  font-weight: 500;
-  
 
-  overflow: hidden;
 }
 .Menu:any-link :hover {
   color: #b1010a;
@@ -39,6 +39,17 @@
 .Menu :any-link {
   color: #000000;
   text-decoration: none;
+}
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #000;
+}
+.nav-links {
+  display: flex;
+  gap: 50px;
+  margin-left: 20px;
 }
 .SliderContainer {
   margin-top: 110px;
@@ -107,3 +118,72 @@
 .active:any-link {
   color: #b90108
 }
+
+@media (max-width: 1288px) {
+  .Menu {
+    padding: 0 5%;
+    font-size: 16px;
+  }
+
+  .image {
+    height: 4.5vh;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    color: #000;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 10px 0;
+    flex-wrap: nowrap;
+  }
+
+  .nav-links.show-menu {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .image {
+    height: 4vh;
+    padding-right: 0;
+    margin-bottom: 0; /* Remove bottom space */
+  }
+
+  .nav-links a {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .nav-links a:hover {
+    color: #b1010a;
+  }
+
+  .active {
+    color: #b90108;
+  }
+}
+
