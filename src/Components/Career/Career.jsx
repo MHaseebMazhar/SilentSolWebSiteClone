@@ -1,5 +1,6 @@
 import React from "react";
 import "./Career.css";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 const Career = () => {
   return (
     <div className="career">
@@ -12,9 +13,11 @@ const Career = () => {
           <span className="subtext">
             Work at the most dynamic agency & unlock your true potential
           </span>
-          <div className="career-container-button">
+          
+            <Link to="/ContactUs" className="career-container-button">
             <span>Contact Us</span>
-          </div>
+            </Link>
+          
         </div>
         <div className="career-container-image">
           <img
@@ -42,9 +45,9 @@ const Career = () => {
               <b>Current openings are closed.</b>
             </p>
           </div>
-          <div className="career-container-button1">
+          <Link to="/ContactUs" className="career-container-button1">
             <span>Contact Us</span>
-          </div>
+            </Link>
         </div>
 
         <div className="career-container-join-submission2">

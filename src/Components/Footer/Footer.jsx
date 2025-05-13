@@ -88,7 +88,7 @@ const Footer = () => {
               </li>
               <li>
                 <NavLink
-                  to="/ContactUs"
+                  to="/Portfolio"
                   className={({ isActive }) => (isActive ? "active" : "")}
                 >
                   Projects

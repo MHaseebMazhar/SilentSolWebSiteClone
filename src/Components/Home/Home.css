@@ -1,5 +1,380 @@
-.index{
+.index {
   position: absolute;
   top: 5px;
   right: 5px;
+}
+.home-services {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 149px;
+  border-radius: 30px 30px 0px 0px;
+}
+.home-header {
+  margin: 0px 33% 0px 0%;
+  padding: 20px 0px 15px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home-header h1 {
+  font-size: 40px;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  line-height: 1.1em;
+  font-family: "Raleway", sans-serif;
+}
+.home-services1 {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 129px;
+  border-radius: 0px 0px 0px 0px;
+}
+.home-header1 {
+  margin: 0px 30% 0px 0%;
+  padding: 0px 0px 15px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home-header1 p {
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  line-height: 1.4em;
+  font-family: "Raleway", sans-serif;
+}
+.home-services2 {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 0px 17.3% 0px 18.5%;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 201px;
+  border-radius: 0px 0px 0px 0px;
+}
+.home-header2 {
+  max-width: 100vh;
+  flex-direction: column;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+  margin: 0px 0% 0px 0%;
+  padding-right: 3%;
+}
+.home-header2 h2 {
+  font-size: 25px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  line-height: 1.1em;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
+}
+.home-header2 p {
+  font-size: 16px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  line-height: 1.7em;
+  font-family: "Raleway", sans-serif;
+}
+.home-services3 {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding-top: 1.5%;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 129px;
+  border-radius: 0px 0px 0px 0px;
+}
+.home-header3 {
+  margin: 0px 5% 0px 5%;
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.home-header3 h2 {
+  font-size: 44px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  line-height: 1.2em;
+  font-family: "Raleway", sans-serif;
+}
+.home-header3 p {
+  font-size: 12px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  line-height: 1.4em;
+  font-family: "Raleway", sans-serif;
+}
+.home-services4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 129px;
+}
+.home-services4 h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2em;
+  font-family: "Raleway", sans-serif;
+}
+.home-services5 {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin: 0px 19% 0px 19%;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  height: 50vh;
+  flex-direction: row;
+ gap: 20px;
+}
+
+.home-header5 video {
+  background-color: #000;
+  display: flex;
+  height: auto;
+  width: 100%;
+
+  margin: 0;
+  max-height: 600px;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+.home-header51 {
+  font-size: 18px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  line-height: 1.2em;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  flex-direction: row;
+  max-width: 100vh;
+}
+.services-home-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.services-home-content h2{
+  font-size: 40px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.3em;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 20px;
+}
+.services-home-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.services-home-list p{
+  line-height: 1.9em;
+  font-size: 16px;
+  margin-bottom: 6%;
+}
+.services-home-cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: column;
+  margin: 0px 20% 2% 20%;
+  gap: 40px;
+}
+.home-card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding:40px 30px 40px 30px;
+  height: 35vh;
+  width: 100%;
+  color: #ffffff; 
+  font-size: 30px;
+  border-radius: 6px;
+ 
+}
+.home-card:hover{
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+  box-shadow: #dfd7d7 0px 20px 30px 0px;
+}
+.home-card-header{
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  border-radius: 15%;
+  border: #000000 3px solid;
+  width: 90px;
+  height: 90px;
+  color: #ff2020;
+
+}
+.home-card-header:hover{
+  color: #1f47fa;
+  border: #650fb6 3px solid;
+}
+.home-card-body p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  width: 100%;
+  line-height: 1.8em; 
+}
+.home-card-head h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 40px 0px 20px 0px;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+}
+.home-choose{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #000000;
+  background-image: url(https://silentsol.com/wp-content/uploads/2024/02/f6301e07-why-choose-us-bg.png);
+  border-radius: 30px 30px 0px 0px;
+  height: 70vh;
+  padding: 85px 0px 315px 0px;
+}
+.home-header6{
+  margin: 0px 18% 0px 18%;
+
+}
+.home-choose-header6 h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px 0% 20px 0%;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+
+}
+.home-choose-header7 p{
+  display: block;
+      unicode-bidi: isolate;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.8em;
+}
+.home-choose1{
+  display: flex;
+  justify-content: start;
+
+  flex-direction: row;
+  background-color: #7C0101;
+  background-image: url(https://silentsol.com/wp-content/uploads/2024/02/f6301e07-why-choose-us-bg.png);
+  border-radius: 0px 0px 30px 30px;
+  height: 70vh;
+  padding: 85px 0px 315px 0px;
+}
+.home-header8{
+  flex-direction: column;
+}
+.home-career-container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7c0101;
+  text-decoration: none;
+  margin: 20px 43.25% 0px 43.25%;
+  
+  border-radius: 30px;
+  text-align: center;
+  vertical-align: middle;
+ 
+  color: #ffffff;
+}
+.home-career-container-button :hover {
+  color: #ffffff;
+  background-color: #beb2b2;
+  border-radius: 30px;
+
+}
+.home-career-container-button span{
+  padding: 14px 45px 14px 35px;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5em;
+  text-decoration: none;
 }

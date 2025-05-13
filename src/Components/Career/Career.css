@@ -56,9 +56,10 @@
 .career-container-button {
   display: flex;
   justify-content: start;
+  align-items: start;
   background-color: #7c0101;
   text-decoration: none;
-  margin-left: -71%;
+  margin-right: 70%;
   border-style: solid;
   border-width: 2px 2px 2px 2px;
   border-color: #c7c7c7;
@@ -76,7 +77,7 @@
   border-radius: 7px;
   transition: all 0.3s ease-in-out;
 }
-.career-container-button span {
+.career-container-button span{
   padding: 14px 45px 14px 35px;
   font-family: "Poppins", Sans-serif;
   font-size: 16px;
@@ -178,6 +179,7 @@
   position: relative;
   z-index: 1;
   margin-top: 50px;
+  color: #ffffff;
 }
 .career-container-button1 :hover {
   color: #000000;

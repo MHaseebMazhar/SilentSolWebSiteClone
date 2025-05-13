@@ -54,19 +54,19 @@
 .SliderContainer {
   margin-top: 110px;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   position: relative;
 }
 
 .slide-wrapper {
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
 }
 
 .slide-img {
   width: 100%;
-  height: 100%;
+  height: 70vh;
   object-fit: cover;
 }
 

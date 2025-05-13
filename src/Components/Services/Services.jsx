@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services.css";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 const Services = () => {
   return (
     <div className="container">
@@ -152,11 +153,9 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="quote">
-        <p>
-          <span>Get a quote</span>
-        </p>
-      </div>
+      <Link to="/ContactUs" className="quote">
+            <span>Get a quote</span>
+            </Link>
       <div className="services-footer">
         <div className="footer-header">
           <img src="location.png" alt="location" />
