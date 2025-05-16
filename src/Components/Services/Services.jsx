@@ -169,7 +169,7 @@ const Services = () => {
           <p>+92 342 0945111</p>
         </div>
         <div className="footer-header1">
-          <img src="email.png" alt="email" />
+          <img src="d6db7ea4-icon.png" alt="email" />
           <p>info@silentsol.com</p>
         </div>
       </div>

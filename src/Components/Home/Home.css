@@ -1,7 +1,6 @@
 .index {
   position: absolute;
   top: 5px;
-  right: 5px;
 }
 .home-services {
   display: flex;
@@ -27,7 +26,6 @@
 .home-header h1 {
   font-size: 40px;
   font-weight: 600;
-
   display: flex;
   justify-content: center;
   align-items: start;
@@ -39,7 +37,6 @@
   display: flex;
   align-items: start;
   justify-content: center;
-
   background-color: #000000;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
@@ -155,7 +152,6 @@
   align-items: center;
   justify-content: center;
   padding: 0px 0px 0px 0px;
-
   color: #000000;
   font-family: "Poppins", sans-serif;
   width: 100%;
@@ -176,7 +172,7 @@
   font-family: "Poppins", sans-serif;
   height: 50vh;
   flex-direction: row;
- gap: 20px;
+  gap: 20px;
 }
 
 .home-header5 video {
@@ -203,14 +199,14 @@
   flex-direction: row;
   max-width: 100vh;
 }
-.services-home-content{
+.services-home-content {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
 }
-.services-home-content h2{
+.services-home-content h2 {
   font-size: 40px;
   font-weight: 500;
   display: flex;
@@ -218,87 +214,84 @@
   align-items: center;
   text-align: center;
   line-height: 1.3em;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-bottom: 20px;
 }
-.services-home-list{
+.services-home-list {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-
 }
-.services-home-list p{
+.services-home-list p {
   line-height: 1.9em;
   font-size: 16px;
   margin-bottom: 6%;
 }
-.services-home-cards{
+.services-home-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   flex-direction: column;
   margin: 0px 20% 2% 20%;
   gap: 40px;
 }
-.home-card{
+.home-card {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding:40px 30px 40px 30px;
+  padding: 40px 30px 40px 30px;
   height: 35vh;
   width: 100%;
-  color: #ffffff; 
+  color: #ffffff;
   font-size: 30px;
   border-radius: 6px;
- 
 }
-.home-card:hover{
+.home-card:hover {
   color: #000000;
   transition: all 0.3s ease-in-out;
   box-shadow: #dfd7d7 0px 20px 30px 0px;
 }
-.home-card-header{
+.home-card-header {
   display: flex;
-  justify-content:  center;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
   font-size: 30px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   border-radius: 15%;
   border: #000000 3px solid;
   width: 90px;
   height: 90px;
   color: #ff2020;
-
 }
-.home-card-header:hover{
+.home-card-header:hover {
   color: #1f47fa;
   border: #650fb6 3px solid;
 }
-.home-card-body p{
+.home-card-body p {
   display: flex;
   justify-content: center;
   text-align: center;
   font-size: 16px;
   font-weight: 300;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #000000;
   width: 100%;
-  line-height: 1.8em; 
+  line-height: 1.8em;
 }
-.home-card-head h2{
+.home-card-head h2 {
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
   margin: 40px 0px 20px 0px;
   font-size: 24px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #000000;
 }
-.home-choose{
+.home-choose {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -310,45 +303,49 @@
   height: 70vh;
   padding: 85px 0px 315px 0px;
 }
-.home-header6{
+.home-header6 {
   margin: 0px 18% 0px 18%;
-
 }
-.home-choose-header6 h2{
+.home-choose-header6 h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin: 0px 0% 20px 0%;
   color: #ffffff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
-
 }
-.home-choose-header7 p{
+.home-choose-header7 p {
   display: block;
-      unicode-bidi: isolate;
+  unicode-bidi: isolate;
   justify-content: center;
   align-items: center;
   text-align: start;
   color: #ffffff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 1.8em;
 }
-.home-choose1{
+.home-choose1 {
   display: flex;
   justify-content: start;
-
   flex-direction: row;
-  background-color: #7C0101;
+  background-color: #7c0101;
   background-image: url(https://silentsol.com/wp-content/uploads/2024/02/f6301e07-why-choose-us-bg.png);
   border-radius: 0px 0px 30px 30px;
   height: 70vh;
   padding: 85px 0px 315px 0px;
 }
-.home-header8{
-  flex-direction: column;
+.home-header8 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 18.3% 0px 18.3%;
+}
+.home-choose-header8 img {
+  width: 60vh;
+  height: 65vh;
+  margin: -205px 40px 0px -85px;
 }
 .home-career-container-button {
   display: flex;
@@ -356,25 +353,309 @@
   align-items: center;
   background-color: #7c0101;
   text-decoration: none;
-  margin: 20px 43.25% 0px 43.25%;
-  
+  margin: 20px 43% 0px 43%;
   border-radius: 30px;
   text-align: center;
   vertical-align: middle;
- 
   color: #ffffff;
 }
 .home-career-container-button :hover {
   color: #ffffff;
   background-color: #beb2b2;
   border-radius: 30px;
-
 }
-.home-career-container-button span{
+.home-career-container-button span {
   padding: 14px 45px 14px 35px;
   font-family: "Poppins", Sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5em;
   text-decoration: none;
+}
+.home-choose2 img {
+  width: 100%;
+  max-width: 175vh;
+  height: 93vh;
+  margin-top: 20px;
+  margin-left: 170px;
+}
+.experience-section {
+  padding-left: 4rem;
+  background-color: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.experience-heading {
+  font-family: "Raleway", Sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1, 2em;
+  text-align: start;
+  color: #ffffff;
+}
+
+.experience-description {
+  max-width: 660px;
+  margin: 1rem auto 2rem;
+  text-align: start;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.skills-container {
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+.skill {
+  margin-bottom: 1.5rem;
+}
+
+.skill-title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.progress-bar {
+  background-color: #263261;
+  height: 10px;
+
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #09e063;
+
+  transition: width 0.5s ease;
+}
+.home-box1 {
+  display: grid;
+  /* Space between items */
+  background-color: #000000;
+  padding: 4.5% 19% 3% 19%;
+  border-radius: 30px 30px 0px 0px;
+  box-sizing: border-box;
+}
+.home-boxes1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 3 columns */
+  width: 100%;
+  overflow: hidden;
+}
+/* Ensure each box-item stretches to equal height */
+.home-box-item1 {
+  overflow: hidden;
+  height: 440px; /* Set a fixed height for all boxes */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin: 25px 25px 25px 25px;
+  border-style: solid;
+  border-width: 15px 15px 15px 15px;
+  border-color: #ffffff;
+  border-radius: 20px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .home-box1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .home-box1 {
+    grid-template-columns: 1fr;
+  }
+}
+.home-our-values-img1 {
+  width: 100%;
+  height: 91.5%;
+  object-fit: cover;
+  display: block;
+  border-radius: 6px;
+}
+
+.home-box-header1 {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+.home-box-text1 {
+  padding: 20px;
+  text-align: center;
+}
+.home-box-text1 h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.home-box-text1 p {
+  font-size: 16px;
+  color: #444;
+}
+.home-header9 h2 {
+  font-size: 40px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.1em;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.home-faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #7c0101;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  padding: 40px 20px;
+  height: auto;
+  padding: 5% 19.1% 5% 19.1%;
+  border-radius: 0px 0px 30px 30px;
+}
+.home-header10 h2 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #ffffff;
+  
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+}
+
+.accordion {
+  width: 100%;
+  margin: 2rem auto;
+}
+.accordion-item {
+  background-color: #000000;
+  border: 1px solid #ccc;
+  border-width: 1px;
+  color: #ffffff;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.accordion-item-header {
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-item-header::after {
+  content: "\203A";
+  font-size: 1.5rem;
+  position: absolute;
+  right: 2rem;
+  border-radius: none;
+  transition: transform 0.3s ease-in-out;
+}
+.accordion-item-header.active::after {
+  content: "\203A";
+ transform: rotate(90deg);
+ transition: all .3s ease-in-out;
+}
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  text-align: left;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  background-color: #ffffff;
+  color: #000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  border-radius: 0 0 0.4rem 0.4rem;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+}
+.SliderContainer1 {
+  margin: 0% 19% 0px 19%;
+ 
+ 
+  height: 17vh;
+  position: relative;
+}
+
+.slide-wrapper1 {
+  position: relative;
+  width: 100%;
+  height: 10vh;
+}
+
+.slide-img1 {
+  margin: 0% 5% 0% 5%;
+  height: 7vh;
+  width: 100%;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  color: rgb(138, 138, 138);
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.next {
+  right: 20px;
+}
+.prev {
+  left: 20px;
+}
+.partner h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0px 20px 0px;
 }

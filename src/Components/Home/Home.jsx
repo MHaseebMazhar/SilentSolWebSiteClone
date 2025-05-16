@@ -1,10 +1,17 @@
 import React from "react";
 import "./Home.css";
+import "./Home.js";
 import Slider from "react-slick"; // Import the Slider component from react-slick
 import "slick-carousel/slick/slick.css"; // Import the CSS for the slider
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 const Home = () => {
+  const skills = [
+    { name: "Software Development", percentage: 95 },
+    { name: "Design", percentage: 87 },
+    { name: "Digital Marketing", percentage: 90 },
+    { name: "Consultancy", percentage: 87 },
+  ];
   const NextArrow = (props) => {
     const { onClick } = props;
     return (
@@ -47,6 +54,62 @@ const Home = () => {
       desc: "Your Vision, Our Code. Where Ideas Take Flight. Explore A Realm Of Limitless Possibilities With Our Development Mysteries. We Don't Just Build, We Redefine The Way Your Business Connects With The World.",
     },
   ];
+ const NextArrow1 = (props) => {
+    const { onClick } = props;
+    return (
+      <button className="arrow next" onClick={onClick}>
+        ▶
+      </button>
+    );
+  };
+
+  const PrevArrow1= (props) => {
+    const { onClick } = props;
+    return (
+      <button className="arrow prev" onClick={onClick}>
+        ◀
+      </button>
+    );
+  };
+  const settings1 = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    nextArrow: <NextArrow1 />,
+    prevArrow: <PrevArrow1 />,
+  };
+  const images1 = [
+    {
+      src: "/client-1-300x90.png",
+    },
+    {
+      src: "/client-2.png",
+      
+    },
+    {
+      src: "/client-3.png",
+      
+    },
+    {
+      src: "/client-4-1-1.png",
+    },
+    {
+      src: "/client-5-1.png",
+    },
+    {
+      src: "/client-6.png",
+    },
+    {
+      src: "/client-7.png",
+    },
+     {
+      src: "/client-8.png",
+    },
+  ];
 
   return (
     <div className="home-container">
@@ -77,7 +140,7 @@ const Home = () => {
         </div>
       </div>
       <div className="home-services1">
-        <div className="home-header1">
+        <div className="hhome-ome-header1">
           <p>
             We have been designing developing, and maintaining apps since 2010.
             <br></br>
@@ -286,22 +349,188 @@ const Home = () => {
           </div>
           <Link to="/ContactUs" className="home-career-container-button">
             <span>Contact Us</span>
-            </Link>
+          </Link>
         </div>
       </div>
       <div className="home-choose1">
         <div className="home-header8">
           <div className="home-choose-header8">
-            <img src="/fe04ca4d-our-experience-2@2x.jpg"alt=""/>
+            <img src="/fe04ca4d-our-experience-2@2x.jpg" alt="" />
           </div>
           <div className="home-choose-header8">
-            <h2>Our Experience</h2>
-            <p>
-            With a rich legacy in the realms of software development, SilentSol stands as a beacon of expertise and innovation. Our journey is steeped in over 14 years of hands-on experience, successfully navigating the dynamic landscapes of technology. We take pride in our ability to craft bespoke solutions for diverse clients, from startups to established enterprises.
-            </p>
+            <section className="experience-section">
+              <h2 className="experience-heading">Our Experience</h2>
+              <p className="experience-description">
+                With a rich legacy in the realms of software development,
+                SilentSol stands as a beacon of expertise and innovation. Our
+                journey is steeped in over 14 years of hands-on experience,
+                successfully navigating the dynamic landscapes of technology. We
+                take pride in our ability to craft bespoke solutions for diverse
+                clients, from startups to established enterprises.
+              </p>
+
+              <div className="skills-container">
+                {skills.map((skill, index) => (
+                  <div className="skill" key={index}>
+                    <div className="skill-title">
+                      <span>{skill.name}</span>
+                      <span>{skill.percentage}%</span>
+                    </div>
+                    <div className="progress-bar">
+                      <div
+                        className="progress-fill"
+                        style={{ width: `${skill.percentage}%` }}
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
           </div>
-            
         </div>
+      </div>
+      <div className="home-choose2">
+        <img src="/Arrow.png" alt="" />
+      </div>
+      <div className="home-box1">
+        <div className="home-header9">
+          <h2>Projects</h2>
+        </div>
+        <div className="home-boxes1">
+          <div className="home-box-item1">
+            <div className="home-box-header1">
+              <img
+                src="Shopwave.jpg"
+                alt="Our Values"
+                className="home-our-values-img1"
+              />
+              <h2>Shopwave</h2>
+            </div>
+          </div>
+          <div className="home-box-item1">
+            <div className="home-box-header1">
+              <img
+                src="web2.png"
+                alt="Our Values"
+                className="home-our-values-img1"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="home-boxes1">
+          <div className="home-box-item1">
+            <div className="home-box-header1">
+              <img
+                src="wlwell-app.jpg"
+                alt="Our Values"
+                className="home-our-values-img1"
+              />
+            </div>
+          </div>
+          <div className="home-box-item1">
+            <div className="home-box-header1">
+              <img
+                src="web3.png"
+                alt="Our Values"
+                className="home-our-values-img1"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="home-boxes1">
+          <div className="home-box-item1">
+            <div className="home-box-header1">
+              <img
+                src="taxi-booking.png"
+                alt="Our Values"
+                className="home-our-values-img1"
+              />
+            </div>
+          </div>
+          <div className="home-box-item1">
+            <div className="home-box-header1">
+              <img
+                src="somali-scaled.jpg"
+                alt="Our Values"
+                className="home-our-values-img1"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-faq">
+        <div className="home-header10">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+<div class="accordion">
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+      How does SilentSol ensure the security of the software developed?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+       Security is paramount at SilentSol. We implement robust coding practices, conduct thorough security audits, and adhere to industry best practices to safeguard your software against potential vulnerabilities.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+     Can SilentSol handle both small-scale and large-scale software projects?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+        Absolutely. SilentSol is equipped to handle projects of various scales. Our team is adaptable and can tailor our services to meet the unique requirements of both small startups and large enterprises.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+      What technologies does SilentSol specialize in?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+       SilentSol is proficient in a wide range of technologies, including but not limited to Python, Java, JavaScript, PHP, React, Angular, and more. Our expertise allows us to choose the best technology stack for your specific project needs.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+     Can you provide digital services?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+        We provide the most user-friendly service for you to develop your software with the best user-experience design. You can come up with an idea, design plan or we are open for discussion to help you to develop your desired software efficiently.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+     Is SilentSol open to customization based on client-specific needs?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+     Absolutely. We understand that every client has unique requirements. SilentSol is flexible and committed to tailoring our services to meet your specific needs, ensuring the end product aligns perfectly with your vision.
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div className="partner">
+        <h2>Our Partners</h2>
+      </div>
+      <div className="SliderContainer1">
+        <Slider {...settings1}>
+          {images1.map((item, index) => (
+            <div key={index} className="slide-wrapper1">
+              <img
+                src={item.src}
+                alt={`Slide`}
+                className="slide-img1"
+              />
+            </div>
+          ))}
+        </Slider>
       </div>
     </div>
   );
