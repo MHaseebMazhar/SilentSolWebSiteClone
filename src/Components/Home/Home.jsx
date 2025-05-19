@@ -5,6 +5,7 @@ import Slider from "react-slick"; // Import the Slider component from react-slic
 import "slick-carousel/slick/slick.css"; // Import the CSS for the slider
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
+
 const Home = () => {
   const skills = [
     { name: "Software Development", percentage: 95 },
@@ -456,7 +457,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home-career-container-loadmore">
-          <span className="">Load-More</span>
+          <span className="">Load More</span>
         </div>
       </div>
       <div className="home-faq">
@@ -563,13 +564,22 @@ const Home = () => {
             ways to save money and support us.
           </p>
           <div className="home-feedback-heading">
-            <div class="home-star">
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-            </div>
+                <div
+                  class="elementor-star-rating"
+                  title="5/5"
+                  itemtype="http://schema.org/Rating"
+                  itemscope=""
+                  itemprop="reviewRating"
+                >
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>{" "}
+                 
+                </div>{" "}
+             
+        
             <div className="home-feedback-logo">
               <svg
                 aria-hidden="true"
@@ -586,13 +596,20 @@ const Home = () => {
       <div className="home-client-feedback">
         <div className="home-feedback">
           <div className="home-feedback-heading">
-            <div className="home-star">
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-            </div>
+                <div
+                  class="elementor-star-rating"
+                  title="5/5"
+                  itemtype="http://schema.org/Rating"
+                  itemscope=""
+                  itemprop="reviewRating"
+                >
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>{" "}
+                  
+                </div>{" "}
             <div className="home-feedback-logo">
               <svg
                 aria-hidden="true"
@@ -628,13 +645,20 @@ const Home = () => {
         </div>
         <div className="home-feedback">
           <div className="home-feedback-heading">
-            <div className="home-star">
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-            </div>
+                <div
+                  class="elementor-star-rating"
+                  title="5/5"
+                  itemtype="http://schema.org/Rating"
+                  itemscope=""
+                  itemprop="reviewRating"
+                >
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>{" "}
+                  
+                </div>{" "}
             <div className="home-feedback-logo">
               <svg
                 aria-hidden="true"
@@ -670,13 +694,20 @@ const Home = () => {
         </div>
         <div className="home-feedback">
           <div className="home-feedback-heading">
-            <div className="home-star">
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-              <i class="icon-element-eicon-star-o"></i>
-            </div>
+               <div
+                  class="elementor-star-rating"
+                  title="5/5"
+                  itemtype="http://schema.org/Rating"
+                  itemscope=""
+                  itemprop="reviewRating"
+                >
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>
+                  <i class="elementor-star-full"></i>{" "}
+                 
+                </div>{" "}
             <div className="home-feedback-logo">
               <svg
                 aria-hidden="true"

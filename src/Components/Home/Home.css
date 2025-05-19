@@ -474,7 +474,7 @@
   align-items: center;
   background-color: #7c0101;
 
-  margin: 20px 45% 0px 45%;
+  margin: 20px 44% 0px 44%;
   border-radius: 30px;
   text-align: center;
   vertical-align: middle;
@@ -738,7 +738,7 @@ h1 {
   background-color: #000;
   color: #ffffff;
   height: 19vh;
-  margin: 8% 19% 0% 19%;
+  margin: 8% 19% 10% 19%;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -814,4 +814,34 @@ h1 {
   display: block;
     font-size: .85em;
     color: #45505F;
+}
+.elementor-element.elementor-element-5bd1937 {
+    width: var(--container-widget-width, 50%);
+    max-width: 50%;
+    --container-widget-width: 50%;
+    --container-widget-flex-grow: 0;
+}
+
+
+.elementor-star-rating {
+    color: #ccd6df;
+    display: inline-block;
+    font-family: eicons;
+}
+.elementor-star-rating i {
+    cursor: default;
+    display: inline-block;
+    font-style: normal;
+    position: relative;
+}
+.elementor-star-rating i:before {
+    color: #f0ad4e;
+    content: "\e934";
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
 }
