@@ -6,24 +6,26 @@
   display: flex;
   align-items: start;
   justify-content: center;
-  padding: 20px;
-  margin-top: 30px;
+  padding: 0px;
+  margin-top: 33px;
   background-color: #000000;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   width: 100%;
   height: 149px;
   border-radius: 30px 30px 0px 0px;
+  
 }
 .home-header {
   margin: 0px 33% 0px 0%;
-  padding: 20px 0px 15px 0px;
+  padding: 0px 0px 25px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 .home-header h1 {
+  
   font-size: 40px;
   font-weight: 600;
   display: flex;
@@ -466,7 +468,31 @@
   border-color: #ffffff;
   border-radius: 20px;
 }
+.home-career-container-loadmore span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7c0101;
 
+  margin: 20px 45% 0px 45%;
+  border-radius: 30px;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+}
+.home-career-container-loadmore :hover {
+  color: #ffffff;
+  background-color: #beb2b2;
+  border-radius: 30px;
+}
+.home-career-container-loadmore span {
+     padding: 12px 30px 12px 30px;
+      font-family: "Rubik", Sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+ 
+
+}
 /* Responsive */
 @media (max-width: 992px) {
   .home-box1 {
@@ -529,9 +555,9 @@
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   width: 100%;
-  padding: 40px 20px;
+
   height: auto;
-  padding: 5% 19.1% 5% 19.1%;
+  padding: 5% 19.1% 4% 19.1%;
   border-radius: 0px 0px 30px 30px;
 }
 .home-header10 h2 {
@@ -540,7 +566,7 @@
   font-weight: 600;
   line-height: 56px;
   color: #ffffff;
-  
+  margin-bottom: 20px
 }
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
@@ -553,14 +579,14 @@ h1 {
 
 .accordion {
   width: 100%;
-  margin: 2rem auto;
+  margin: 0rem auto;
 }
 .accordion-item {
   background-color: #000000;
   border: 1px solid #ccc;
   border-width: 1px;
   color: #ffffff;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   border-radius: 0.5rem;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
@@ -586,8 +612,8 @@ h1 {
 }
 .accordion-item-header.active::after {
   content: "\203A";
- transform: rotate(90deg);
- transition: all .3s ease-in-out;
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in-out;
 }
 .accordion-item-body {
   max-height: 0;
@@ -595,7 +621,7 @@ h1 {
   transition: max-height 0.2s ease-out;
 }
 .accordion-item-body-content {
-  padding: 1rem;
+  padding: 1.2rem;
   line-height: 1.5rem;
   text-align: left;
   border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
@@ -615,8 +641,7 @@ h1 {
 }
 .SliderContainer1 {
   margin: 0% 19% 0px 19%;
- 
- 
+  padding: 0px 30px 0px 30px;
   height: 17vh;
   position: relative;
 }
@@ -629,6 +654,7 @@ h1 {
 
 .slide-img1 {
   margin: 0% 5% 0% 5%;
+  gap: 30px;
   height: 7vh;
   width: 100%;
 }
@@ -650,7 +676,7 @@ h1 {
 .prev {
   left: 20px;
 }
-.partner h2{
+.partner h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -658,4 +684,134 @@ h1 {
   font-size: 38px;
   font-weight: 500;
   margin: 30px 0px 20px 0px;
+}
+.home-client {
+  margin: 0% 20% 3% 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home-client-header h2 {
+  font-family: "ABeeZee", Sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2em;
+  color: #000000;
+}
+.home-client-section {
+  margin: 0% 19% 0% 21%;
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  border: #000 1px solid;
+  border-radius: 15px 15px 15px 0px;
+}
+.home-client-image img {
+  border-radius: 15px 15px 15px 0px;
+  margin: -55px 0px 0px -40px;
+  width: 33vh;
+  height: 440px;
+  display: block;
+  box-shadow: 32px 32px 80px -16px rgba(0, 0, 0, 0.24);
+}
+.home-client-descrption {
+  padding: 80px 100px 30px 30px;
+}
+.home-client-descrption h6 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.875rem;
+  line-height: 1em;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 30px;
+}
+.home-client-descrption p {
+  font-family: "Roboto", Sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.6em;
+  margin-bottom: 1em;
+}
+.home-hello {
+  background-color: #000;
+  color: #ffffff;
+  height: 19vh;
+  margin: 8% 19% 0% 19%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+  border-radius: 30px 30px 22px 22px;
+}
+.home-hello h2 {
+  font-family: "Source Sans Pro", Sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  color: #ffffff;
+  padding-top: 25px;
+}
+.home-client-feedback {
+  margin: 3.2% 20% 8% 19%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.home-feedback-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.home-feedback {
+  border: #000 1px solid;
+  border-radius: 15px 15px 15px 0px;
+  height: 42vh;
+  padding: 48px 36px 48px 36px;
+}
+.home-feedback-logo {
+  
+  display: block;
+  height: 1.7em;
+  position: relative;
+  width: 1.7em;
+ fill: rgba(27, 95, 193, 0.18);
+}
+.home-feedback-name-image{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.home-feedback-intro{
+  display: flex;
+  flex-direction: column;
+}
+.home-feedback-paragraph{
+      color: var(--e-global-color-astglobalcolor2);
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    line-height: 1.5rem;
+}
+.home-feedback-image img {
+  border-radius: 50%;
+  width: 40px;
+    height: 40px;
+}
+.home-feedback-name h2{
+  color: var(--e-global-color-astglobalcolor2);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.home-feebback-profession{
+  display: block;
+    font-size: .85em;
+    color: #45505F;
 }

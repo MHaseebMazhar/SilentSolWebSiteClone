@@ -167,13 +167,13 @@
   display: flex;
   background-color: #7c0101;
   text-decoration: none;
-  width: 28.07%;
+  width: 29.07%;
   border-style: solid;
   border-width: 2px 2px 2px 2px;
   border-color: #c7c7c7;
   border-radius: 10px;
   flex: 0 0 auto;
-  min-width: 150px;
+  
   text-align: center;
   vertical-align: middle;
   position: relative;

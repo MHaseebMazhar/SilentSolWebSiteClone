@@ -54,7 +54,7 @@ const Home = () => {
       desc: "Your Vision, Our Code. Where Ideas Take Flight. Explore A Realm Of Limitless Possibilities With Our Development Mysteries. We Don't Just Build, We Redefine The Way Your Business Connects With The World.",
     },
   ];
- const NextArrow1 = (props) => {
+  const NextArrow1 = (props) => {
     const { onClick } = props;
     return (
       <button className="arrow next" onClick={onClick}>
@@ -63,7 +63,7 @@ const Home = () => {
     );
   };
 
-  const PrevArrow1= (props) => {
+  const PrevArrow1 = (props) => {
     const { onClick } = props;
     return (
       <button className="arrow prev" onClick={onClick}>
@@ -88,11 +88,9 @@ const Home = () => {
     },
     {
       src: "/client-2.png",
-      
     },
     {
       src: "/client-3.png",
-      
     },
     {
       src: "/client-4-1-1.png",
@@ -106,7 +104,7 @@ const Home = () => {
     {
       src: "/client-7.png",
     },
-     {
+    {
       src: "/client-8.png",
     },
   ];
@@ -140,7 +138,7 @@ const Home = () => {
         </div>
       </div>
       <div className="home-services1">
-        <div className="hhome-ome-header1">
+        <div className="home-header1">
           <p>
             We have been designing developing, and maintaining apps since 2010.
             <br></br>
@@ -457,64 +455,83 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="home-career-container-loadmore">
+          <span className="">Load-More</span>
+        </div>
       </div>
       <div className="home-faq">
         <div className="home-header10">
           <h2>Frequently Asked Questions</h2>
         </div>
 
-<div class="accordion">
-  <div class="accordion-item">
-    <div class="accordion-item-header">
-      How does SilentSol ensure the security of the software developed?
-    </div>
-    <div class="accordion-item-body">
-      <div class="accordion-item-body-content">
-       Security is paramount at SilentSol. We implement robust coding practices, conduct thorough security audits, and adhere to industry best practices to safeguard your software against potential vulnerabilities.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <div class="accordion-item-header">
-     Can SilentSol handle both small-scale and large-scale software projects?
-    </div>
-    <div class="accordion-item-body">
-      <div class="accordion-item-body-content">
-        Absolutely. SilentSol is equipped to handle projects of various scales. Our team is adaptable and can tailor our services to meet the unique requirements of both small startups and large enterprises.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <div class="accordion-item-header">
-      What technologies does SilentSol specialize in?
-    </div>
-    <div class="accordion-item-body">
-      <div class="accordion-item-body-content">
-       SilentSol is proficient in a wide range of technologies, including but not limited to Python, Java, JavaScript, PHP, React, Angular, and more. Our expertise allows us to choose the best technology stack for your specific project needs.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <div class="accordion-item-header">
-     Can you provide digital services?
-    </div>
-    <div class="accordion-item-body">
-      <div class="accordion-item-body-content">
-        We provide the most user-friendly service for you to develop your software with the best user-experience design. You can come up with an idea, design plan or we are open for discussion to help you to develop your desired software efficiently.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <div class="accordion-item-header">
-     Is SilentSol open to customization based on client-specific needs?
-    </div>
-    <div class="accordion-item-body">
-      <div class="accordion-item-body-content">
-     Absolutely. We understand that every client has unique requirements. SilentSol is flexible and committed to tailoring our services to meet your specific needs, ensuring the end product aligns perfectly with your vision.
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              How does SilentSol ensure the security of the software developed?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                Security is paramount at SilentSol. We implement robust coding
+                practices, conduct thorough security audits, and adhere to
+                industry best practices to safeguard your software against
+                potential vulnerabilities.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Can SilentSol handle both small-scale and large-scale software
+              projects?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                Absolutely. SilentSol is equipped to handle projects of various
+                scales. Our team is adaptable and can tailor our services to
+                meet the unique requirements of both small startups and large
+                enterprises.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              What technologies does SilentSol specialize in?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                SilentSol is proficient in a wide range of technologies,
+                including but not limited to Python, Java, JavaScript, PHP,
+                React, Angular, and more. Our expertise allows us to choose the
+                best technology stack for your specific project needs.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Can you provide digital services?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                We provide the most user-friendly service for you to develop
+                your software with the best user-experience design. You can come
+                up with an idea, design plan or we are open for discussion to
+                help you to develop your desired software efficiently.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Is SilentSol open to customization based on client-specific needs?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                Absolutely. We understand that every client has unique
+                requirements. SilentSol is flexible and committed to tailoring
+                our services to meet your specific needs, ensuring the end
+                product aligns perfectly with your vision.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="partner">
         <h2>Our Partners</h2>
@@ -523,14 +540,196 @@ const Home = () => {
         <Slider {...settings1}>
           {images1.map((item, index) => (
             <div key={index} className="slide-wrapper1">
-              <img
-                src={item.src}
-                alt={`Slide`}
-                className="slide-img1"
-              />
+              <img src={item.src} alt={`Slide`} className="slide-img1" />
             </div>
           ))}
         </Slider>
+      </div>
+      <div className="home-client">
+        <div className="home-client-header">
+          <h2>What our clients says</h2>
+        </div>
+      </div>
+      <div className="home-client-section">
+        <div className="home-client-image">
+          <img src="287e571f-image2.png" alt="" />
+        </div>
+        <div className="home-client-descrption">
+          <h6>Sharyar alam- ceo of finx digital private limited.</h6>
+          <p>
+            “The Silentsol team was exemplary in the design and creation of the
+            app. It has made an outstanding commitment to developing consumer
+            communication and fresh insights. They proposed all the possible
+            ways to save money and support us.
+          </p>
+          <div className="home-feedback-heading">
+            <div class="home-star">
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+            </div>
+            <div className="home-feedback-logo">
+              <svg
+                aria-hidden="true"
+                class="e-font-icon-svg e-fab-google-plus-g"
+                viewBox="0 0 640 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-client-feedback">
+        <div className="home-feedback">
+          <div className="home-feedback-heading">
+            <div className="home-star">
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+            </div>
+            <div className="home-feedback-logo">
+              <svg
+                aria-hidden="true"
+                class="e-font-icon-svg e-fab-yelp"
+                viewBox="0 0 384 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M42.9 240.32l99.62 48.61c19.2 9.4 16.2 37.51-4.5 42.71L30.5 358.45a22.79 22.79 0 0 1-28.21-19.6 197.16 197.16 0 0 1 9-85.32 22.8 22.8 0 0 1 31.61-13.21zm44 239.25a199.45 199.45 0 0 0 79.42 32.11A22.78 22.78 0 0 0 192.94 490l3.9-110.82c.7-21.3-25.5-31.91-39.81-16.1l-74.21 82.4a22.82 22.82 0 0 0 4.09 34.09zm145.34-109.92l58.81 94a22.93 22.93 0 0 0 34 5.5 198.36 198.36 0 0 0 52.71-67.61A23 23 0 0 0 364.17 370l-105.42-34.26c-20.31-6.5-37.81 15.8-26.51 33.91zm148.33-132.23a197.44 197.44 0 0 0-50.41-69.31 22.85 22.85 0 0 0-34 4.4l-62 91.92c-11.9 17.7 4.7 40.61 25.2 34.71L366 268.63a23 23 0 0 0 14.61-31.21zM62.11 30.18a22.86 22.86 0 0 0-9.9 32l104.12 180.44c11.7 20.2 42.61 11.9 42.61-11.4V22.88a22.67 22.67 0 0 0-24.5-22.8 320.37 320.37 0 0 0-112.33 30.1z"></path>
+              </svg>
+            </div>
+          </div>
+          <div className="home-feedback-second-section">
+            <div className="home-feedback-paragraph">
+              <p>
+                “Their expert advisors provided insights that transcended our
+                software goals, aligning technology with our business
+                objectives. The result? A strategic roadmap that continues to
+                guide our digital success.”
+              </p>
+            </div>
+            <div className="home-feedback-name-image">
+              <div className="home-feedback-image">
+                <img src="lab-customer-testimonial-1.jpg" alt="" />
+              </div>
+              <div className="home-feedback-intro">
+                <div className="home-feedback-name">
+                  <h2>Maria Eve</h2>
+                </div>
+                <div className="home-feebback-profession">Lawyer</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="home-feedback">
+          <div className="home-feedback-heading">
+            <div className="home-star">
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+            </div>
+            <div className="home-feedback-logo">
+              <svg
+                aria-hidden="true"
+                class="e-font-icon-svg e-fab-google-plus-g"
+                viewBox="0 0 640 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"></path>
+              </svg>
+            </div>
+          </div>
+          <div className="home-feedback-second-section">
+            <div className="home-feedback-paragraph">
+              <p>
+                “SilentSol's web development prowess revamped our online
+                platform. Their attention to detail and seamless integration of
+                cutting-edge features enhanced user experience, resulting in a
+                significant boost in conversions.”
+              </p>
+            </div>
+            <div className="home-feedback-name-image">
+              <div className="home-feedback-image">
+                <img src="lab-customer-testimonial-2.jpg" alt="" />
+              </div>
+              <div className="home-feedback-intro">
+                <div className="home-feedback-name">
+                  <h2>Liam Bower</h2>
+                </div>
+                <div className="home-feebback-profession">Mechanic</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="home-feedback">
+          <div className="home-feedback-heading">
+            <div className="home-star">
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+              <i class="icon-element-eicon-star-o"></i>
+            </div>
+            <div className="home-feedback-logo">
+              <svg
+                aria-hidden="true"
+                class="e-font-icon-svg e-fab-facebook-square"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path>
+              </svg>
+            </div>
+          </div>
+          <div className="home-feedback-second-section">
+            <div className="home-feedback-paragraph">
+              <p>
+                “SilentSol's system development expertise was a game-changer.
+                Robust solutions not only meet industry standards but also
+                provide a scalable foundation for future growth. Truly impressed
+                with their dedication.”
+              </p>
+            </div>
+            <div className="home-feedback-name-image">
+              <div className="home-feedback-image">
+                <img src="lab-customer-testimonial-13.jpg" alt="" />
+              </div>
+              <div className="home-feedback-intro">
+                <div className="home-feedback-name">
+                  <h2>Nicky</h2>
+                </div>
+                <div className="home-feebback-profession">Doctor</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="services-footer">
+        <div className="footer-header">
+          <img src="location.png" alt="location" />
+          <p>
+            1st Floor, Paramount Arcade, Office# F-4, G-15 Markaz Islamabad,
+            44000
+          </p>
+        </div>
+        <div className="footer-header">
+          <img src="phone.png" alt="phone" />
+          <p>+92 342 0945111</p>
+        </div>
+        <div className="footer-header1">
+          <img src="d6db7ea4-icon.png" alt="email" />
+          <p>info@silentsol.com</p>
+        </div>
+      </div>
+      <div className="home-hello">
+        <h2>Hello There!👋</h2>
       </div>
     </div>
   );
